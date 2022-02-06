@@ -1,5 +1,5 @@
 using JuMP, LinearAlgebra, GLPK, SparseArrays
-
+import JuMP.MathOptInterface.OPTIMAL
 function solve_aux_prob(
     dual_variables,
     total_length,
